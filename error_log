@@ -1,0 +1,4 @@
+[06-Feb-2020 19:24:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'adminjm_carga_tramites'@'localhost' to database 'adminjm_tramites' in /home/adminjm/jesusmaria.gob.mx/carga_tramites/controller/conexion.php on line 7
+[27-Feb-2020 16:09:27 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /home/adminjm/jesusmaria.gob.mx/carga_tramites/controller/conexion.php on line 7
+[27-Feb-2020 16:09:43 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /home/adminjm/jesusmaria.gob.mx/carga_tramites/controller/conexion.php on line 7
+[15-Apr-2020 22:06:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/adminjm/jesusmaria.gob.mx/carga_tramites/controller/conexion.php on line 7

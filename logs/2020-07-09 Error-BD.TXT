@@ -1,0 +1,5 @@
+2020-07-09 18:07:13Error: No se pudo conectar a MySQL.
+
+errno de depuración: 1049
+
+error de depuración: Unknown database 'almacen'

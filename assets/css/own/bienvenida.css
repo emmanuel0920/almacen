@@ -1,0 +1,76 @@
+@media only screen and (max-width: 738.99px){
+	.xxx{/*ESTE ES EL DROPDOWN DEL USUARIO QUE ACCEDIÓ*/
+		display: none !important;
+	}
+}
+
+.navbar-fixed-top + .main-container {
+	padding-top: 45px !important;
+}
+
+@media only screen and (max-width: 586px){
+	.nin{
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 405.99px){
+	#main-container{
+		margin-top: 0px;
+	}
+}
+
+@media only screen and (max-width: 359.99px){
+	#main-container{
+		margin-top: 0px;
+	}
+}
+
+@media only screen and (max-width: 317.99px){
+	#body_content{
+		margin-top: -45px !important;
+	}
+}
+
+.navbar-brand{
+	float: none !important;
+}
+
+/*ESTILOS PARA HACER LA ELLIPSIS DEL TEXTO QUE YA NO CABE EN EL MENEO*/
+
+#navbar{
+	height: 50px;
+}
+
+#menu-toggler{
+	z-index: 1 !important;
+}
+
+div.navbar-container div.navbar-header{
+	position: relative; 
+	top: -15px; 
+	height: 50px;
+}
+
+div.nin p{
+	white-space: nowrap; 
+	overflow: hidden; 
+	text-overflow: ellipsis;
+}
+
+div.navbar-container div.navbar-buttons.navbar-header{
+	position: fixed; 
+	top: 0px; 
+	right: 0px; 
+	z-index: 1;
+}
+
+li.bene a{
+	white-space: nowrap; 
+	overflow: hidden; 
+	text-overflow: ellipsis;
+}
+
+div.footer-content{
+	padding-left: 40px !important;
+}

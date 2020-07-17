@@ -1,0 +1,32 @@
+/*
+Errno::ENOTSUP: Operation not supported @ apply2files - .sass-cache/a4b0546dc222ea158df295ec273183c47c87e969/index.scssc20200714-11823-1ip00dz
+
+Backtrace:
+/usr/lib/ruby/vendor_ruby/sass/util.rb:1062:in `chmod'
+/usr/lib/ruby/vendor_ruby/sass/util.rb:1062:in `block in atomic_create_and_write_file'
+/usr/lib/ruby/vendor_ruby/sass/util.rb:1060:in `synchronize'
+/usr/lib/ruby/vendor_ruby/sass/util.rb:1060:in `atomic_create_and_write_file'
+/usr/lib/ruby/vendor_ruby/sass/cache_stores/filesystem.rb:39:in `_store'
+/usr/lib/ruby/vendor_ruby/sass/cache_stores/base.rb:51:in `store'
+/usr/lib/ruby/vendor_ruby/sass/cache_stores/chain.rb:19:in `block in store'
+/usr/lib/ruby/vendor_ruby/sass/cache_stores/chain.rb:19:in `each'
+/usr/lib/ruby/vendor_ruby/sass/cache_stores/chain.rb:19:in `store'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:425:in `_to_tree'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:294:in `watch'
+/usr/lib/ruby/vendor_ruby/sass/plugin.rb:109:in `method_missing'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:354:in `watch_or_update'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:50:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:18:in `parse!'
+/usr/bin/sass:8:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOTSUP: Operation not supported @ apply2files - .sass-cache/a4b0546dc222ea158df295ec273183c47c87e969/index.scssc20200714-11823-1ip00dz"; }
