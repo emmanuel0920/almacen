@@ -27,6 +27,8 @@ include('./controller/conexion.php');
 		<![endif]-->
 		<link rel="stylesheet" href="assets/css/ace-rtl.min.css" />
 
+		<link rel="stylesheet" type="text/css" href="assets/processed/index.css">
+
 
 
 
@@ -108,8 +110,8 @@ include('./controller/conexion.php');
 													<div class="space"></div>
 
 
-													<div class="clearfix">
-														<button class="width-50 center-block btn btn-sm btn-primary" type="submit" name="login" value="Entrar">
+													<div class="login_div">
+														<button class="center-block btn btn-sm btn-primary" type="submit" name="login" value="Entrar">
 															<i class="ace-icon fa fa-sign-in"></i>
 															<span class="bigger-110">Iniciar Sesión</span>
 														</button>
