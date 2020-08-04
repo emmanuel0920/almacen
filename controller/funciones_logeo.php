@@ -4,7 +4,7 @@ error_reporting(0);
 include('funciones.php');
 $nick = $_POST['nick'];
 $psw = $_POST['pass'];
-$_SESSION='';
+$_SESSION[]='';
 $query = "SELECT u.id_usuario, u.nombre_usuario, u.usuario, u.password, u.status, u.id_tipo_usuario 
 			FROM usuarios AS u 
 		  WHERE u.usuario ='".$nick."'";
@@ -15,6 +15,7 @@ if(mysqli_num_rows($result))
 {
 	if(($row['password'] == md5($psw))&&($row['status'] == NULL))
     {  
+        //var_dump($row);
         $_SESSION['id_usuario']=      $row["id_usuario"];
         $_SESSION['usuario']=         $row["usuario"];
         $_SESSION['nombre_completo']= $row["nombre_usuario"];
